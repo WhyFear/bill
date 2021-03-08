@@ -3,7 +3,7 @@ KeepAccounts.exe和其配套表格能够实现微信、支付宝官方导出账�
 
 原作者：	MickLife
 
-我添加了新文件addtag.py,可以方便的在控制台中添加标签了，不用再excel一个一个点选，速度更快，使用更加方便
+**相比较原作者内容，我添加了新文件addtag.py,可以方便的在控制台中添加标签了，不用再excel一个一个点选，速度更快，使用更加方便**
 
 Bilibili:	https://space.bilibili.com/38626658
 
