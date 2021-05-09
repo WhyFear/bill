@@ -1,3 +1,6 @@
+原仓库使用了 macOS 不支持的 `msvcrt` ([#1](https://github.com/MickLife/KeepAccounts_v2.0/issues/1))，本仓库对此作出修改，可以在 macOS 系统上运行。
+
+---
 # KeepAccounts_v2.0
 KeepAccounts.exe和其配套表格能够实现微信、支付宝官方导出账单的读取合并，为每笔帐标记类型，并按月份和类型生成可视化图表。再也不用消费一笔记一笔，每月仅需10分钟，记好所有的帐。
 

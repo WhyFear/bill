@@ -9,7 +9,6 @@ import pandas as pd
 import openpyxl
 import tkinter.filedialog
 import datetime
-import msvcrt
 
 
 def strip_in_data(data):  # 把列名中和数据中首尾的空格都去掉。
@@ -90,14 +89,14 @@ if __name__ == '__main__':
         cancel_zfb = 0
 
     while cancel_zfb == 1 and cancel_wx == 1:
-        print('\n您没有选择任何一个账单！     请按任意键退出程序')
-        ord(msvcrt.getch())
+        print('\n您没有选择任何一个账单！')
+        exit(1)
 
     path_account = tkinter.filedialog.askopenfilename(title='选择要导出的目标账本表格：',
                                                       filetypes=[('所有文件', '.*'), ('Excel表格', '.xlsx')])
     while path_account == '':  # 判断是否选择了账本
-        print('\n年轻人，不选账本怎么记账？      请按任意键退出程序')
-        ord(msvcrt.getch())
+        print('\n年轻人，不选账本怎么记账？')
+        exit(1)
 
     path_write = path_account
 
@@ -131,5 +130,5 @@ if __name__ == '__main__':
 
     workbook.save(path_write)  # 保存
     print("\n成功将数据写入到 " + path_write)
-    print("\n运行成功！write successfully!    按任意键退出")
-    ord(msvcrt.getch())
+    print("\n运行成功！write successfully!")
+    exit(1)
