@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 @author: Zeng LH
-@contact: 893843891@qq.com
 @software: pycharm
 @file: AddTag.py
 @time: 2021/2/13 0013 11:56
